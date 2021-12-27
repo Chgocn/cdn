@@ -47,9 +47,9 @@ function getbbdata(){
             }else if (array[i].from.indexOf("Mac") != -1){
               from_icon = '<i class="fas fa-laptop"></i>';
             }else if (array[i].from.indexOf("Android") != -1){
-              from_icon = '<i class="fas fa-android"></i>';
+              from_icon = '<i class="fab fa-android"></i>';
             }else if (array[i].from.indexOf("Windows") != -1){
-              from_icon = '<i class="fas fa-windows"></i>';
+              from_icon = '<i class="fab fa-windows"></i>';
             }else if (array[i].from.indexOf("微信") != -1){
               from_icon = '<i class="fab fa-weixin" style="font-size: 0.6rem"></i>';
             }else{
